@@ -1,6 +1,7 @@
 import React,{Component} from 'react';
 import { Navigator, View, AsyncStorage } from 'react-native';
 import Home from "./home";
+import Feedback from "./Feedback";
 
 class Navigation extends Component {
     constructor(props) {
@@ -19,7 +20,9 @@ class Navigation extends Component {
         case "home":
           return (
             <Home navigator={navigator}/>
-          )
+          );
+          case "feedback":
+              return <Feedback navigator={navigator}/>
           break;
       }
     }
