@@ -12,7 +12,9 @@ class SideBar extends React.Component {
     }
 
     onAdminLoginNavigator() {
-
+        this.props.navigator.push({
+            id: "adminlogin"
+        })
     }
 
     onFeedbackNavigator() {

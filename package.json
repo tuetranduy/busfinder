@@ -11,6 +11,7 @@
     "react": "16.0.0-alpha.6",
     "react-native": "0.43.3",
     "react-native-animatable": "^1.1.1",
+    "react-native-image-picker": "^0.26.3",
     "react-native-maps": "^0.14.0",
     "react-pure-render": "^1.0.2",
     "react-redux": "^5.0.4",
