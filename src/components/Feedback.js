@@ -81,7 +81,7 @@ class Feedback extends React.Component {
                     </Item>
                     <Item regular>
                         <InputGroup>
-                            <Input placeholder="Feedback"/>
+                            <Input placeholder="Comment"/>
                         </InputGroup>
                     </Item>
                     <Item style={{
